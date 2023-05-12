@@ -7,6 +7,7 @@ import (
 	"github.com/tkanata/go-training-neko/model"
 )
 
+// mainパッケージだとテストが動かない...？
 func Test_generateNeko(t *testing.T) {
 	type args struct {
 		n     model.Neko
